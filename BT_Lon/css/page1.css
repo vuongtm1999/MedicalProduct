@@ -1,0 +1,163 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: cornflowerblue;
+}
+
+nav:hover{
+    opacity: 1 !important;
+}
+.container{
+    width: 70%;
+    /* margin: 0 auto; */
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.ull{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none !important;
+}
+.submenu > li{
+    padding: 7px;
+    font-weight: bold;
+}
+.submenu > li > a{
+    color: rgb(255, 255, 255);
+}
+.submenu > li > a:hover{
+    color: rgb(20, 163, 132);
+}
+.submenu{
+    padding: 10px;
+    display: none;
+    position: absolute;
+    width: 30%;
+    z-index: 999;
+    background-color: cornflowerblue;
+}
+.submenu:hover{
+    background-color: blueviolet;
+}
+.sub:hover ul.submenu{
+    display: block;
+}
+
+ul.menu > li > a{
+    display: block;
+    color: white;
+    padding: 25px 15px;
+}
+ul.menu > li > a:hover{
+    background-color: blueviolet;
+}
+.btn{
+    color: white;
+    display: block;
+}
+
+.btn:nth-child(2){
+    background-color: rgb(33, 189, 56);
+    border-radius: 5px 0 0 5px !important;
+    border: 2px solid greenyellow;
+}
+.btn:last-child{
+    background-color: rgb(207, 37, 37);
+    border-radius: 0 5px 5px 0;
+    border: 2px solid red;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+
+/* div.background{
+    background-image: url(../images/bannerProduct/55e05be194fc5c5e6da607c84ed632f7.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    border: 0;
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: blue;
+    position: relative;
+} */
+div.img{
+    width: 100%;
+    position: relative;
+}
+div.img > img{
+    width: 100%;
+    height: 550px;
+}
+
+.tit{
+    position: absolute;
+    right: 2rem;
+    bottom: 10rem;
+    color: #180add;
+}
+.tit > h1{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+div.illutr > div{
+    width: 50%;
+}
+
+.maskIllutr img{
+    width: 100%;
+}
+ul.padd > li{
+    padding: 6px;
+}
+span.padd{
+    display: block;
+    padding: 1px 0;
+}
+
+.certifi img{
+    width: 100%;
+}
+.certifi > div{
+    width: 11%;
+    margin: 7px;
+}
+.object{
+    margin-top: 5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(11, 11, 100);
+    font-weight: bold;
+}
+
+img.radius{
+    width: 10%;
+}
+div.contact > div{
+    width: 25%;
+}
+img.radius{
+    width: 35%;
+    margin: 0 4.5rem;
+}
+.titw > li:first-child{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.titw img{
+    transition: transform 0.5s;
+}
+.titw img:hover{
+    transform: scale(1.2);
+}

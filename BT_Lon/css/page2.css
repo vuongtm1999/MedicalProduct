@@ -1,0 +1,201 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAV */
+nav{
+    background-color: cornflowerblue;
+}
+nav:hover{
+    opacity: 1 !important;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.ull{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none !important;
+}
+.submenu > li{
+    padding: 7px;
+    font-weight: bold;
+}
+.submenu > li > a{
+    color: rgb(255, 255, 255);
+}
+.submenu > li > a:hover{
+    color: rgb(20, 163, 132);
+}
+.submenu{
+    padding: 10px;
+    display: none;
+    position: absolute;
+    width: 30%;
+    z-index: 999;
+    background-color: cornflowerblue;
+}
+.submenu:hover{
+    background-color: blueviolet;
+}
+.sub:hover ul.submenu{
+    display: block;
+}
+
+ul.menu > li > a{
+    display: block;
+    color: white;
+    padding: 25px 15px;
+}
+ul.menu > li > a:hover{
+    background-color: blueviolet;
+}
+.btn{
+    color: white;
+    display: block;
+}
+
+.btn:nth-child(2){
+    background-color: rgb(33, 189, 56);
+    border-radius: 5px 0 0 5px !important;
+    border: 2px solid greenyellow;
+}
+.btn:last-child{
+    background-color: rgb(207, 37, 37);
+    border-radius: 0 5px 5px 0;
+    border: 2px solid red;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+
+/* footer */
+.certifi img{
+    width: 100%;
+}
+.certifi > div{
+    width: 11%;
+    margin: 7px;
+}
+.object{
+    margin-top: 5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(11, 11, 100);
+    font-weight: bold;
+}
+
+img.radius{
+    width: 10%;
+}
+div.contact > div{
+    width: 25%;
+}
+img.radius{
+    width: 35%;
+    margin: 0 4.5rem;
+}
+.titw > li:first-child{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.titw img{
+    transition: transform 0.5s;
+}
+.titw img:hover{
+    transform: scale(1.2);
+}
+
+
+/* Content */
+div.banner{
+    width: 100%;
+    position: relative;
+}
+div.banner > img{
+    width: 100%;
+    height: 400px;
+}
+div.tit{
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    color: #1308a5;
+}
+
+div.sloves > div {
+    width: 17%;
+    margin: 0px 10px;
+}
+div.sloves > div > img {
+    width: 100%;
+}
+.object2{
+    color: rgb(24, 143, 87);
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+ul.padli > li{
+    padding: 7px;
+}
+span.pad{
+    display: block;
+    padding: 5px;
+}
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+    margin: 3rem 0;
+}
+th{
+    border:1px solid black;
+}
+td{
+    border:1px solid black;
+}
+
+h4.center{
+    text-align: center;
+}
+
+tr >th{
+    text-align: center;
+}
+tr > td{
+    padding: 10px;
+}
+ul.style{
+    list-style: square;
+}
+div.clothes > div:first-child{
+    width: 50%;
+}
+div.clothes > div:last-child{
+    width: 47%;
+}
+div.clothes img{
+    width: 100%;
+}
+section.clothesPadding{
+    padding: 5rem;
+}
+
+div.sloves img:hover{
+    transform: scale(2);
+}
+div.sloves img{
+    transition: transform 1s;
+}
